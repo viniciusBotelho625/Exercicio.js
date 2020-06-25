@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+    background-size: cover;
+}
+
+#foto {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+}
+
+
+section {
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
+    margin: auto;
+}
+
+div {
+
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
