@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+body {
+    background: -webkit-linear-gradient(right, black, #ff1d0b, black);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    background-color: yellow;
+    color: rgba(61, 60, 60, 0.986);
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
